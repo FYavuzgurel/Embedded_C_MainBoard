@@ -1,0 +1,62 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC18F4520
+CCSVerions=5.078
+Compiler=PCH
+CCSVersion=5.078
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[C:\Users\Fatih\Desktop\Yeni klasör (2)\main]
+Type=4
+[mru-list]
+1=main.c
+
+[ProjectLog]
+Days=3
+D1=22-02-2022
+D1_L=4
+D1_L1=[61276]Project Opened.
+D1_L2=[61286]Started Editing.
+D1_L3=[61756]Stopped Editing.
+TotalEdit=10
+TotalDebug=0
+D1_E=3
+D1_D=0
+D1_L4=[63019]Project Closed.
+D2=23-02-2022
+D2_L=8
+D2_L1=[32836]Project Opened.
+D2_L2=[32877]Project Closed.
+D2_L3=[33520]Project Opened.
+D2_L4=[33527]Started Editing.
+D2_L5=[33827]Stopped Editing.
+D2_L6=[34022]Started Editing.
+D2_L7=[34432]Stopped Editing.
+D2_E=7
+D2_D=0
+D2_L8=[34432]Project Closed.
+D3=28-02-2022
+D3_L=6
+D3_L1=[46042]Project Opened.
+D3_L2=[46672]Project Closed.
+D3_L3=[65649]Project Opened.
+D3_L4=[67110]Project Closed.
+D3_L5=[67119]Project Opened.
+D3_L6=[68082]Project Closed.
+
+[Opened Files]
+1=main.c
+t1=81
+2=..\4520\main.c
+t2=1
+Count=1
+[main.c]
+Type=4
+
+[defines]
+buildcount=5
+[Units]
+Count=1
+1=main (main)

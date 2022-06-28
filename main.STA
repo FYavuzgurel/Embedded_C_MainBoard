@@ -1,0 +1,129 @@
+
+ROM used:   30008/32768 (92%)
+            30008/32768 (92%) including unused fragments
+
+            4.1 Average locations per line
+            13.6 Average locations per statement
+
+RAM used:   593/1536 (39%) at main() level
+            648/1536 (42%) worst case
+
+Stack used: 6 worst case (5 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 2473  1750  79  main.c
+    5     0   0  main.h
+  844     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18F4520.h
+ 2227   257  12  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  856     0   0  PIC18F4520_registers.h
+  456   100   5  ..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c
+  143    53   2  ..\..\..\..\Program Files (x86)\PICC\Drivers\ds1302.c
+  269    29   1  ..\..\..\..\Program Files (x86)\PICC\Drivers\input.c
+   28     0   0  ..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+   86    23   1  ..\..\..\..\Program Files (x86)\PICC\Drivers\2402.c
+----- -----
+ 7387  2212 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0    848   1   20   1121 10.1  CEIL_FLOOR
+0    122   0   10             @FLT
+0     60   0    4             @SFTOI
+0     54   0    2             @ITOF
+0    246   0   11             @MULFF
+0    632   1   16             @ADDFF
+0     28   0    4     43  2.1  floor
+0     30   0    4     44  1.9  ceil
+0    346   1   16    259  6.9  fmod
+0    350   1   14             @DIVFF
+0     42   0    1             @delay_ms2
+0     78   0    3    760  4.5  lcd_read_byte
+0     86   0    2    262  3.7  lcd_read_nibble
+0     66   0    1    399  2.4  lcd_send_nibble
+0     82   0    3    415  3.7  lcd_send_byte
+0    152   0    6    852  6.2  lcd_init
+0     40   0    4    208  6.3  lcd_gotoxy
+0    116   0    1    354  4.7  lcd_putc
+0     40   0    2    211  4.5  write_ds1302_byte
+0     22   0    2    104  2.0  write_ds1302
+0     66   0    3    414  5.0  read_ds1302
+0     76   0    2    254  3.7  rtc_init
+0     48   0    4    176  5.6  get_bcd
+0     44   0    3             @DIV88
+0     36   0    3    160  4.5  rm_bcd
+0    188   0    7    437  2.4  rtc_set_datetime
+ Inline         5    260  3.5  rtc_get_date
+ Inline         4    186  3.3  rtc_get_time
+0     28   0    1             @I2C_WRITEU_1
+0     30   0    1             @I2C_READU_1
+0     44   0    1     84  2.4  ext_eeprom_ready
+0     50   0    2    134  2.8  write_ext_eeprom
+0     68   0    2    207  3.3  read_ext_eeprom
+0    114   0    0    245  3.6  timer0_kesmesi
+0     88   0    2    226  3.6  serihaberlesme
+0   9398  16    3  50850  8.5  MAIN
+0    254   0    9             @PRINTF_LD_1416
+0    192   0    6             @PRINTF_D_1416
+0    148   0   13             @DIV3232
+0    276   0   12             @PRINTF_L32D_1416
+0    200   0    6             @PRINTF_D0_1416
+0   1876   3    0  10405  3.0  tanimla
+0    228   0    1    352  3.3  pazartesi1
+0    228   0    1    352  3.3  pazartesi2
+0    228   0    1    352  3.3  sali1
+0    228   0    1    352  3.3  sali2
+0    228   0    1    352  3.3  carsamba1
+0    228   0    1    352  3.3  carsamba2
+0    228   0    1    352  3.3  persembe1
+0    228   0    1    352  3.3  persembe2
+0    228   0    1    352  3.3  cuma1
+0    224   0    1    352  3.3  cuma2
+0    222   0    1    352  3.3  cumartesi1
+0    222   0    1    352  3.3  cumartesi2
+0    222   0    1    352  3.3  pazar1
+0    222   0    1    352  3.3  pazar2
+0     32   0    1    115  2.5  bugun
+0   4974   8    4   7128  6.0  toplama
+0     92   0   14             @MUL3232
+0     92   0    5             @SDTOF
+0     66   0    5             @FTOSD
+0    166   0    1    664  3.8  sifrecoz
+0    466   1    1    894  3.4  sifirla
+0   2694   4    3   6119  4.6  ata
+0     34   0    5             @MUL1616
+0     78   0    1    270  3.1  eeprom
+0     14   0    0             @const1865
+0     34   0    2             @PSTRINGC_1416
+0    184   0    2    555  5.3  pazartesi_test
+0    176   0    2    527  5.2  sali_test
+0    176   0    2    527  5.2  carsamba_test
+0    176   0    2    527  5.2  persembe_test
+0    176   0    2    527  5.2  cuma_test
+0    174   0    2    527  5.2  cumartesi_test
+0    176   0    2    527  5.2  pazar_test
+0     18   0    1    108  3.0  calistir
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               55
+    Statements              2212
+    Comments                900
+    Volume (V)              132866
+    Difficulty (D)          226.5
+    Effort to implement (E) 30087515
+    Time to implement (T)   464 hours, 19 minutes
+    Est Delivered Bugs (B)  32
+    Cyclomatic Complexity   311
+    Maintainability (MI)    69
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000B8   178  0  
+000BA-07FFE  29826  2756  
+
+
+

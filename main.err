@@ -1,0 +1,11 @@
+Compiling C:\Users\Fatih\Desktop\DAHILI OSC\main on 23-Þub-22 at 09:28
+>>> Warning 207 "main.c" Line 2242(1,1): Code has no effect
+>>> Warning 207 "main.c" Line 2275(1,1): Code has no effect
+>>> Warning 207 "main.c" Line 2306(1,1): Code has no effect
+>>> Warning 207 "main.c" Line 2336(1,1): Code has no effect
+>>> Warning 207 "main.c" Line 2367(1,1): Code has no effect
+>>> Warning 207 "main.c" Line 2397(1,1): Code has no effect
+>>> Warning 207 "main.c" Line 2428(1,1): Code has no effect
+      Memory usage:   ROM=92%      RAM=39% - 42%
+      0 Errors,  7 Warnings.
+Build Successful.
